@@ -1,0 +1,62 @@
+{
+    "bioResearch": {
+        "date": "2009-2016",
+        "first": "Stanford Cardiology, UCLA Pulmonary and Neurology",
+        "second": "4 pulications, 6 years of Experience"
+    },
+    "education": {
+        "UCLA": "UCLA",
+        "uclaDegree": "Biology B.S.",
+        "uclaYears": "2019-2011",
+        "USC": "USC",
+        "uscDegree": "Computer Science Masters",
+        "uscYears": "2016-2018"
+    },
+    "header": {
+        "firstName": "Stefanie",
+        "lastName": "Nunez"
+    },
+    "jobs": {
+        "bioResearch": "Biorearcher",
+        "mcGrawHill": "McGraw-Hill",
+        "strideHealth": "Stride Health",
+        "tigerConnect": "TigerConnect"
+    },
+    "mcGrawHill": {
+        "date": "May 2017 - August 2017",
+        "first": "Full stack developer for education web application, working on core team improving accessibility and creating grading page calculations and validations.",
+        "second": "Tech: PHP, HMTL5, CSS, Javascript, MySQL, GIT, Docker, and JIRA"
+    },
+    "projects": {
+        "weather": "Find the Weather in Your Area",
+        "whatsForDinner": "Decide What You Should Eat For Dinner"
+    },
+    "strideHealth": {
+        "date": "July 2022 - March 2024",
+        "first": "Focosed on front-end Shopping Experience for users buying health insurance, specifically email collection, user personalization, and plan filtering.",
+        "second": "Tech: React, Typescript, Tailwind, GraphQL, Jest, AWS, CircleCI" 
+    },
+    "tigerConnect": {
+        "date": "June 2018 - July 2022",
+        "first": "Front-end development for messaging app focusing on building new features including voice/video calls and patients messaging, increasing unit test coverage, and ensuring cross-browser compatibility.",
+        "second": "Tech: Javascript, React, Typescript, Mobx, SCSS, Angular."
+    },
+    "titles": {
+        "contacts": "Contact Me!",
+        "education": "Education",
+        "projects": "Projects",
+        "workExperience": "Work Experience"
+    },
+    "weather": {
+        "checkWeather": "Check Weather",
+        "placeholder": "Zipcode or City Name",
+        "title": "Weather"
+    },
+    "whatsForDinner": {
+        "addButton": "Add Resturant",
+        "button": "Click To Select A Resturant",
+        "clear": "Clear All",
+        "list": "Restaurant List",
+        "title": "What's For Dinner?"
+    }
+}
