@@ -71,7 +71,7 @@ export const Weather = () => {
                     <div className="mr-8">
                         <div className='text-4xl md:text-5xl font-semibold'>{data?.location?.name}</div>
                         <p>{data?.current?.condition?.text}</p>
-                        <p>{data?.current?.temp_f}</p>
+                        <p>{data?.current?.temp_f} F</p>
                     </div>
                     <img className='w-24 h-24' src={data?.current?.condition?.icon} alt="weather icon" />
                 </div>
