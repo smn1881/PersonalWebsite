@@ -33,7 +33,7 @@
     },
     "strideHealth": {
         "date": "July 2022 - March 2024",
-        "first": "Focused on front-end Shopping Experience for users buying health insurance, specifically email collection, user personalization, and plan filtering.",
+        "first": "Focused on front-end development to enhance the user shopping experience for health insurance, specifically implementing email collection, user personalization, and plan filtering.",
         "second": "Tech: React, Typescript, Tailwind, GraphQL, Jest, AWS, CircleCI" 
     },
     "tigerConnect": {
