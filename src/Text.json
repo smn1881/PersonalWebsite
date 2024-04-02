@@ -2,7 +2,7 @@
     "bioResearch": {
         "date": "2009-2016",
         "first": "Biology Researcher at Stanford Cardiology and UCLA Pulmonary and Neurology",
-        "second": "4 pulications, 6 years of Experience"
+        "second": "4 publications, 6 years of experience"
     },
     "education": {
         "UCLA": "UCLA",
@@ -33,7 +33,7 @@
     },
     "strideHealth": {
         "date": "July 2022 - March 2024",
-        "first": "Focosed on front-end Shopping Experience for users buying health insurance, specifically email collection, user personalization, and plan filtering.",
+        "first": "Focused on front-end Shopping Experience for users buying health insurance, specifically email collection, user personalization, and plan filtering.",
         "second": "Tech: React, Typescript, Tailwind, GraphQL, Jest, AWS, CircleCI" 
     },
     "tigerConnect": {
@@ -49,12 +49,12 @@
     },
     "weather": {
         "checkWeather": "Check Weather",
-        "placeholder": "Zipcode/City",
+        "placeholder": "Zip code/City",
         "title": "Weather"
     },
     "whatsForDinner": {
-        "addButton": "Add Resturant",
-        "button": "Click To Select A Resturant",
+        "addButton": "Add Restaurant",
+        "button": "Click To Select A Restaurant",
         "clear": "Clear All",
         "list": "Restaurant List",
         "title": "What's For Dinner?"
