@@ -1,7 +1,7 @@
 {
     "bioResearch": {
         "date": "2009-2016",
-        "first": "Stanford Cardiology, UCLA Pulmonary and Neurology",
+        "first": "Biology Researcher at Stanford Cardiology and UCLA Pulmonary and Neurology",
         "second": "4 pulications, 6 years of Experience"
     },
     "education": {
@@ -17,7 +17,7 @@
         "lastName": "Nunez"
     },
     "jobs": {
-        "bioResearch": "Biorearcher",
+        "bioResearch": "Stanford/UCLA",
         "mcGrawHill": "McGraw-Hill",
         "strideHealth": "Stride Health",
         "tigerConnect": "TigerConnect"
@@ -49,7 +49,7 @@
     },
     "weather": {
         "checkWeather": "Check Weather",
-        "placeholder": "Zipcode or City Name",
+        "placeholder": "Zipcode/City",
         "title": "Weather"
     },
     "whatsForDinner": {
