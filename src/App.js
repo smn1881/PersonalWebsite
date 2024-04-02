@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import text from './Text.json';
+import { WorkExperience } from './WorkExperience';
+import { Projects } from './Projects';
+import { Education } from './Education';
+import { Contacts } from './Contacts';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='max-w-full'>
+      <div className="bg-[url('./downtownLA.jpg')] h-screen w-screen bg-cover bg-center md:bg-top bg-no-repeat p-10">
+        <h1 id='firstName' className='m-2 md:m-10 text-sky-300 text-6xl md:text-9xl font-medium pt-24'>{text.header.firstName}</h1>
+        <h1 id='lasName' className='m-2 md:m-10 text-sky-400 text-6xl md:text-9xl font-medium'>{text.header.lastName}</h1>
+      </div>
+      <div className='flex flex-col'>
+          <div className='flex flex-row'>
+            <div className='text-3xl'>
+              <Education />
+              <WorkExperience />
+              <Projects />
+              <Contacts />
+            </div>  
+          </div>
+
+      </div>
     </div>
   );
 }
