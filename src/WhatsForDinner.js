@@ -76,7 +76,7 @@ export const WhatsForDinner = () => {
             <div className='flex flex-row mb-6'>
                 <div className='mr-2 md:mr-8 bg-white bg-opacity-40 p-4 rounded-md w-1/2'>
                     <div className='flex flex-col md:flex-row'>
-                        <div className='font-medium mb-2 w-5/6'>{text.whatsForDinner.list}</div>
+                        <div className='text-lg md:text-3xl font-medium mb-2 w-5/6'>{text.whatsForDinner.list}</div>
                         <button className='bg-white bg-opacity-60 whitespace-nowrap w-fit h-fit p-1 rounded-md text-base' onClick={() => setDinnerList([])}>
                             {text.whatsForDinner.clear}
                         </button>
@@ -85,8 +85,8 @@ export const WhatsForDinner = () => {
                         {dinnerList.map((item, index) => {
                             return (
                                 <li className='mt-2 flex flex-row'>
-                                    <div className='w-5/6'>{item}</div>
-                                    <div className='w-1/6'>
+                                    <div className='w-3/4 md:w-5/6'>{item}</div>
+                                    <div className='w-1/4 md:w-1/6'>
                                         <button 
                                             className='ml-5 bg-white rounded-full w-4 h-4 align-top bg-opacity-80' 
                                             onClick={() => removeItem(index)}
@@ -106,14 +106,17 @@ export const WhatsForDinner = () => {
                         onChange={(e) => setInput(e.target.value)}
                         className='mb-2 p-2 rounded-md bg-white bg-opacity-40'
                     ></input>
-                    <button onClick={addItem} className='w-fit mt-2 p-2 bg-sky-200 bg-opacity-60 border border-sky-400 rounded-md'>
+                    <button 
+                        onClick={addItem} 
+                        className='w-fit mt-2 p-2 bg-sky-200 bg-opacity-60 border border-sky-400 rounded-md text-lg md:text-3xl'
+                    >
                         {text.whatsForDinner.addButton}
                     </button>
                     {selected && (
                         <div>
                             <div 
                                 id='selectedResturant' 
-                                className='text-4xl font-semibold bg-white bg-opacity-80 border border-sky-500 rounded-md mt-10 p-4 h-20'
+                                className='text-lg md:text-4xl font-semibold bg-white bg-opacity-80 border border-sky-500 rounded-md mt-10 p-2 md:p-4 h-20'
                             >
                                 <div id='container' className='relative'>
                                     {dinnerList.map((resturant) => {
@@ -123,7 +126,7 @@ export const WhatsForDinner = () => {
                                             </span>
                                         )
                                     })}   
-                                    <span id='selected' className='w-11/12 absolute opacity-0 overflow-hidden text-ellipsis whitespace-nowrap'>
+                                    <span id='selected' className='w-11/12 absolute opacity-0 overflow-hidden text-ellipsis md:whitespace-nowrap'>
                                         {selected}
                                     </span>
                                 </div>
@@ -132,7 +135,10 @@ export const WhatsForDinner = () => {
                     )}
                 </div>
             </div>
-            <button onClick={selectDinner} className='mt-2 p-2 bg-sky-200 bg-opacity-60 border border-sky-400 rounded-md'>
+            <button 
+                onClick={selectDinner} 
+                className='mt-2 p-2 bg-sky-200 bg-opacity-60 border border-sky-400 rounded-md text-lg md:text-3xl'
+            >
                 {text.whatsForDinner.button}
             </button>
         </div>

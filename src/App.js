@@ -14,8 +14,8 @@ const App = () => {
       <div className='flex flex-col'>
           <div className='flex flex-row'>
             <div className='text-3xl'>
-              <Education />
               <WorkExperience />
+              <Education />
               <Projects />
               <Contacts />
             </div>  
