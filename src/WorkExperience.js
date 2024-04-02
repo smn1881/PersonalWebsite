@@ -2,7 +2,6 @@ import anime from 'animejs/lib/anime.es.js';
 import { useInView } from 'react-intersection-observer';
 import { useEffect, useRef } from 'react';
 import text from './Text.json';
-import { FaAsterisk } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 
 
