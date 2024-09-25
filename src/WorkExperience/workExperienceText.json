@@ -1,0 +1,37 @@
+[
+    {
+        "name": "synaptiq", 
+        "title": "Synaptiq",
+        "date": "April 2024 - August 2024",
+        "first": "Front-end engineer creating customized forms for epidemiologists to download reports for State of Michigan based on attributes such as geography, disease type, and date.",
+        "second": "Tech: React, Typescript, Next.js, Material UI, React-Hook-Form, Elasticsearch, Jest, AzureDevOps" 
+    },
+    {
+        "name": "strideHealth", 
+        "title": "Stride Health",
+        "date": "July 2022 - March 2024",
+        "first": "Focused on front-end development to enhance the user shopping experience for health insurance, specifically implementing email collection, user personalization, and plan filtering.",
+        "second": "Tech: React, Typescript, Tailwind, GraphQL, Jest, AWS, CircleCI" 
+    },
+    {
+        "name": "tigerConnect",
+        "title": "TigerConnect",
+        "date": "June 2018 - July 2022",
+        "first": "Front-end development for messaging app focusing on building new features including voice/video calls and patients messaging, increasing unit test coverage, and ensuring cross-browser compatibility.",
+        "second": "Tech: Javascript, React, Typescript, Mobx, SCSS, Angular."
+    },
+    {
+        "name": "mcGrawHill",
+        "title": "McGraw-Hill",
+        "date": "May 2017 - August 2017",
+        "first": "Full stack developer for education web application, working on core team improving accessibility and creating grading page calculations and validations.",
+        "second": "Tech: PHP, HMTL5, CSS, Javascript, MySQL, GIT, Docker, and JIRA"
+    },
+    {
+        "name": "bioResearch",
+        "title": "Stanford/UCLA",
+        "date": "2009-2016",
+        "first": "Biology Researcher at Stanford Cardiology and UCLA Pulmonary and Neurology",
+        "second": "4 publications, 6 years of experience"
+    }
+]

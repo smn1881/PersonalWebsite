@@ -2,10 +2,10 @@ import anime from 'animejs/lib/anime.es.js';
 import { useEffect, useState } from 'react';
 import classNames from 'classnames';
 
-import text from './Text.json';
+import text from '../Text.json';
 
 export const Weather = () => {
-    const [data, setData] = useState();
+    const [data, setData] = useState(undefined);
     const [error, setError] = useState(false);
     const [errorMessage, setErrorMessage] = useState(undefined);
     const [input, setInput] = useState('');
@@ -25,7 +25,7 @@ export const Weather = () => {
 
 
     useEffect(() => {
-        if (data?.error) {
+        if (data && data?.error) {
             setError(true);
             if (data.error.message.startsWith('Parameter q')) {
                 setErrorMessage('Enter in your zipcode or cityname.')
@@ -46,7 +46,7 @@ export const Weather = () => {
     };
 
     return (
-        <div id='weatherContainer' className="bg-[url('./weather-image.jpg')] min-h-[400px] w-full bg-cover px-4 md:px-12 py-12 grow">
+        <div id='weatherContainer' className="bg-[url('./Projects/Images/weather-image.jpg')] min-h-[400px] w-full bg-cover px-4 md:px-12 py-12 grow">
             <h2 className='text-white font-semibold mb-8'>{text.weather.title}</h2>
             <div className='flex flex-row'>
                 <div className='flex flex-col mr-6 w-2/3'>
