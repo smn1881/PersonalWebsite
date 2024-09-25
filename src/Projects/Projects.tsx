@@ -1,6 +1,6 @@
 import anime from 'animejs/lib/anime.es.js';
 import { useEffect, useState } from 'react';
-import text from './Text.json';
+import text from '../Text.json';
 import { WhatsForDinner } from "./WhatsForDinner";
 import { Weather } from './Weather';
 

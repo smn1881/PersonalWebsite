@@ -1,13 +1,13 @@
 import anime from 'animejs/lib/anime.es.js';
 import { useEffect } from 'react';
 
-import text from './Text.json';
+import text from '../Text.json';
 
-import UCLALogo from './ucla-logo.png';
-import USCLogo from './usc-logo.png';
-import TheoUCLA from './theo-ucla.jpg';
-import RoyceHall from './royce-hall.jpg';
-import GradUSC from './usc-grad.jpg';
+import UCLALogo from './Images/ucla-logo.png';
+import USCLogo from './Images/usc-logo.png';
+import TheoUCLA from './Images/theo-ucla.jpg';
+import RoyceHall from './Images/royce-hall.jpg';
+import GradUSC from './Images/usc-grad.jpg';
 
 
 export const Education = () => {

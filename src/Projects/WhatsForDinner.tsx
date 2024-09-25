@@ -1,7 +1,7 @@
 import anime from 'animejs/lib/anime.es.js';
 import { useEffect, useState } from 'react';
 
-import text from './Text.json';
+import text from '../Text.json';
 
 import { IoIosClose } from "react-icons/io";
 
@@ -71,7 +71,7 @@ export const WhatsForDinner = () => {
     }
 
     return (
-        <div id='dinnerContainer' className="flex flex-col bg-[url('./dinner-image.jpg')] bg-cover max-h-5/6 2md:min-h-[400px] w-full p-8">
+        <div id='dinnerContainer' className="flex flex-col bg-[url('./Projects/Images/dinner-image.jpg')] bg-cover max-h-5/6 2md:min-h-[400px] w-full p-8">
             <h1 className='text-white font-semibold mb-4'>{text.whatsForDinner.title}</h1>
             <div className='flex flex-row mb-6'>
                 <div className='mr-2 md:mr-8 bg-white bg-opacity-40 p-4 rounded-md w-1/2'>

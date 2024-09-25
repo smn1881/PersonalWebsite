@@ -1,7 +1,7 @@
 import text from './Text.json';
-import { WorkExperience } from './WorkExperience';
-import { Projects } from './Projects';
-import { Education } from './Education';
+import { WorkExperience } from './WorkExperience/WorkExperience';
+import { Projects } from './Projects/Projects';
+import { Education } from './Education/Education';
 import { Contacts } from './Contacts';
 
 const App = () => {
@@ -20,7 +20,6 @@ const App = () => {
               <Contacts />
             </div>  
           </div>
-
       </div>
     </div>
   );

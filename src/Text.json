@@ -1,9 +1,4 @@
 {
-    "bioResearch": {
-        "date": "2009-2016",
-        "first": "Biology Researcher at Stanford Cardiology and UCLA Pulmonary and Neurology",
-        "second": "4 publications, 6 years of experience"
-    },
     "education": {
         "UCLA": "UCLA",
         "uclaDegree": "Biology B.S.",
@@ -16,30 +11,9 @@
         "firstName": "Stefanie",
         "lastName": "Nunez"
     },
-    "jobs": {
-        "bioResearch": "Stanford/UCLA",
-        "mcGrawHill": "McGraw-Hill",
-        "strideHealth": "Stride Health",
-        "tigerConnect": "TigerConnect"
-    },
-    "mcGrawHill": {
-        "date": "May 2017 - August 2017",
-        "first": "Full stack developer for education web application, working on core team improving accessibility and creating grading page calculations and validations.",
-        "second": "Tech: PHP, HMTL5, CSS, Javascript, MySQL, GIT, Docker, and JIRA"
-    },
     "projects": {
         "weather": "Find the Weather in Your Area",
         "whatsForDinner": "Decide What You Should Eat For Dinner"
-    },
-    "strideHealth": {
-        "date": "July 2022 - March 2024",
-        "first": "Focused on front-end development to enhance the user shopping experience for health insurance, specifically implementing email collection, user personalization, and plan filtering.",
-        "second": "Tech: React, Typescript, Tailwind, GraphQL, Jest, AWS, CircleCI" 
-    },
-    "tigerConnect": {
-        "date": "June 2018 - July 2022",
-        "first": "Front-end development for messaging app focusing on building new features including voice/video calls and patients messaging, increasing unit test coverage, and ensuring cross-browser compatibility.",
-        "second": "Tech: Javascript, React, Typescript, Mobx, SCSS, Angular."
     },
     "titles": {
         "contacts": "Contact Me!",
