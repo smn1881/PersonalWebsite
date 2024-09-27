@@ -101,14 +101,14 @@ export const Projects = () => {
                 <div className='w-full md:w-1/3 mr-6 text-center text-green-50 flex flex-row md:flex-col'>
                     <div 
                         id='weather'
-                        className='bg-teal-400 mb-4 mr-6 md:mr-0 py-10 px-4 border border-cyan-300 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-600' 
+                        className='bg-teal-400 mb-4 mr-6 md:mr-0 py-10 px-4 border border-cyan-300 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-600 cursor-pointer' 
                         onClick={() => setSelected(weather)}
                     >
                         {text.projects.weather}
                     </div>
                     <div 
                         id='dinner'
-                        className='bg-teal-300 mb-4 py-10 px-4 border border-cyan-200 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-500' 
+                        className='bg-teal-300 mb-4 py-10 px-4 border border-cyan-200 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-500 cursor-pointer' 
                         onClick={() => setSelected(whatsForDinner)}
                     >
                         {text.projects.whatsForDinner}
