@@ -39,7 +39,7 @@ export const Weather = () => {
     const makeApiCall = async () => {
         setError(false);
         setErrorMessage(undefined);
-        await fetch(`http://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input}&aqi=no`)
+        await fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${input}&aqi=no`)
             .then(response => response.json())
             .then(json => setData(json))
             .catch(error => console.error(error));
