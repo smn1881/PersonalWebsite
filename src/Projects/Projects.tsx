@@ -1,7 +1,8 @@
 import anime from 'animejs/lib/anime.es.js';
 import { useEffect, useState } from 'react';
 import text from '../Text.json';
-import { WhatsForDinner } from "./WhatsForDinner";
+import { TicTacToe } from './TicTacToe';
+import { WhatsForDinner } from './WhatsForDinner';
 import { Weather } from './Weather';
 
 export const Projects = () => {
@@ -9,6 +10,7 @@ export const Projects = () => {
 
     const weather = <Weather />
     const whatsForDinner = <WhatsForDinner />
+    const ticTacToe = <TicTacToe />
 
     useEffect(() => {
         anime({
@@ -92,6 +94,47 @@ export const Projects = () => {
             loop: true,
             autoplay: true,
         });
+
+        anime({
+            targets: '#ticTacToe',
+            borderBottomLeftRadius: ['20%', '50%'],
+            easing: 'easeInOutSine',
+            duration: 3000,
+            delay: 100,
+            direction: 'alternate',
+            loop: true,
+            autoplay: true,
+        })
+        anime({
+            targets: '#ticTacToe',
+            borderBottomRightRadius: ['30%', '70%'],
+            easing: 'easeInOutSine',
+            duration: 4000,
+            delay: 400,
+            direction: 'alternate',
+            loop: true,
+            autoplay: true,
+        })
+        anime({
+            targets: '#ticTacToe',
+            borderTopLeftRadius: ['20%', '60%'],
+            easing: 'easeInOutSine',
+            duration: 2000,
+            delay: 300,
+            direction: 'alternate',
+            loop: true,
+            autoplay: true,
+        })
+        anime({
+            targets: '#ticTacToe',
+            borderTopRightRadius: ['20%', '40%'],
+            easing: 'easeInOutSine',
+            duration: 5000,
+            delay: 200,
+            direction: 'alternate',
+            loop: true,
+            autoplay: true,
+        });
     }, []);
 
     return (
@@ -101,17 +144,24 @@ export const Projects = () => {
                 <div className='w-full md:w-1/3 mr-6 text-center text-green-50 flex flex-row md:flex-col'>
                     <div 
                         id='weather'
-                        className='bg-teal-400 mb-4 mr-6 md:mr-0 py-10 px-4 border border-cyan-300 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-600 cursor-pointer' 
+                        className='bg-teal-500 mb-4 mr-6 md:mr-0 py-10 px-4 border border-cyan-400 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-600 cursor-pointer' 
                         onClick={() => setSelected(weather)}
                     >
                         {text.projects.weather}
                     </div>
                     <div 
                         id='dinner'
-                        className='bg-teal-300 mb-4 py-10 px-4 border border-cyan-200 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-500 cursor-pointer' 
+                        className='bg-teal-400 mb-4 py-10 px-4 border border-cyan-300 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-500 cursor-pointer' 
                         onClick={() => setSelected(whatsForDinner)}
                     >
                         {text.projects.whatsForDinner}
+                    </div>
+                    <div 
+                        id='ticTacToe'
+                        className='bg-teal-300 mb-4 py-10 px-4 border border-cyan-200 rounded-md underline underline-offset-4 decoration-dotted decoration-emerald-500 cursor-pointer' 
+                        onClick={() => setSelected(ticTacToe)}
+                    >
+                        {text.projects.ticTacToe}
                     </div>
                 </div>
                 <div className='flex md:w-2/3'>
