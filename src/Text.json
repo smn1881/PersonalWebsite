@@ -12,8 +12,15 @@
         "lastName": "Nunez"
     },
     "projects": {
+        "ticTacToe": "Play Tic Tac Toe",
         "weather": "Find the Weather in Your Area",
         "whatsForDinner": "Decide What You Should Eat For Dinner"
+    },
+    "ticTacToe": {
+        "restart": "Restart Game",
+        "winnerText": "Winner: ",
+        "title": "Tic Tac Toe",
+        "whoseTurn": "Player's Turn: "
     },
     "titles": {
         "contacts": "Contact Me!",
